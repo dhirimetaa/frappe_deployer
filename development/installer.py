@@ -253,7 +253,7 @@ def create_site_in_bench(args):
             f"--db-host=mariadb",
             f"--db-type={args.db_type}",
             f"--no-mariadb-socket",
-            f"--db-root-password=123",
+            f"--db-root-password=123456789",
             f"--admin-password={args.admin_password}",
         ]
     else:
